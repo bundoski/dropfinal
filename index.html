@@ -184,9 +184,9 @@
 
   <!-- Start Hero -->
   <div class="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1" id="">
-    <iframe class="dropVideo"
-       src="/assets/img/dropvideos/dropfinalVideo.mp4" type="video/mp4">
-    </iframe>
+    <div class="dropVideo" autoplay muted loop>
+      <img src="/assets/img/dropvideos/alternative.gif" type="video/mp4">
+    </div>
 
     <style>
       .dropVideo {
@@ -194,7 +194,7 @@
       }
 
       .dropVideo {
-        position: absolute;
+        position:fixed
         top: 0;
         left: 0;
         width: 100%;
@@ -204,7 +204,7 @@
 
       .container {
         
-        position: relative;
+        position: relactive;
         z-index: 1;
       }
     </style>
